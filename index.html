@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NRI Financial Planning Hub - Comprehensive Financial Guidance</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h2>NRI Financial Hub</h2>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <div class="nav-dropdown">
+                    <a href="#fire" class="nav-link">FIRE Planning</a>
+                    <div class="dropdown-content">
+                        <a href="#fire-number">Enough Number</a>
+                        <a href="#retirement-mistakes">Retirement Mistakes</a>
+                        <a href="#bucket-strategy">Three-Bucket Strategy</a>
+                    </div>
+                </div>
+                <div class="nav-dropdown">
+                    <a href="#banking" class="nav-link">NRI Banking</a>
+                    <div class="dropdown-content">
+                        <a href="#account-types">Account Types</a>
+                        <a href="#banking-tips">Banking Tips</a>
+                    </div>
+                </div>
+                <div class="nav-dropdown">
+                    <a href="#tax" class="nav-link">Tax & Compliance</a>
+                    <div class="dropdown-content">
+                        <a href="#exit-tax">Exit Tax</a>
+                        <a href="#rnor-status">RNOR Status</a>
+                        <a href="#tds-rates">TDS Rates</a>
+                    </div>
+                </div>
+                <a href="#investments" class="nav-link">Investments</a>
+                <a href="#case-studies" class="nav-link">Case Studies</a>
+            </div>
+            <button class="nav-toggle" id="nav-toggle">☰</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>NRI Financial Planning Hub</h1>
+                <p class="hero-subtitle">Comprehensive financial guidance for Non-Resident Indians and Indian residents navigating cross-border wealth management</p>
+                <div class="hero-buttons">
+                    <a href="#fire" class="btn btn--primary btn--lg">Start Planning</a>
+                    <a href="#case-studies" class="btn btn--outline btn--lg">View Case Studies</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Topic Overview -->
+    <section class="topics-overview">
+        <div class="container">
+            <h2 class="section-title">Key Financial Topics</h2>
+            <div class="topics-grid">
+                <div class="topic-card" data-section="fire">
+                    <div class="topic-icon">🎯</div>
+                    <h3>FIRE Planning</h3>
+                    <p>Calculate your "Enough Number" and plan for financial independence and early retirement</p>
+                </div>
+                <div class="topic-card" data-section="banking">
+                    <div class="topic-icon">🏦</div>
+                    <h3>NRI Banking</h3>
+                    <p>Navigate NRE, NRO, FCNR accounts and banking compliance requirements</p>
+                </div>
+                <div class="topic-card" data-section="tax">
+                    <div class="topic-icon">📊</div>
+                    <h3>Tax Compliance</h3>
+                    <p>Understand cross-border tax obligations, RNOR status, and TDS requirements</p>
+                </div>
+                <div class="topic-card" data-section="investments">
+                    <div class="topic-icon">📈</div>
+                    <h3>Investments</h3>
+                    <p>GIFT City investments, wealth building frameworks, and NRI-specific strategies</p>
+                </div>
+                <div class="topic-card" data-section="case-studies">
+                    <div class="topic-icon">📋</div>
+                    <h3>Case Studies</h3>
+                    <p>Real-world examples of retirement planning and wealth building strategies</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FIRE & Retirement Planning -->
+    <section id="fire" class="section">
+        <div class="container">
+            <h2 class="section-title">FIRE & Retirement Planning</h2>
+            
+            <div class="content-tabs">
+                <div class="tab-buttons">
+                    <button class="tab-btn active" data-tab="fire-number">Enough Number</button>
+                    <button class="tab-btn" data-tab="retirement-mistakes">Retirement Mistakes</button>
+                    <button class="tab-btn" data-tab="bucket-strategy">Three-Bucket Strategy</button>
+                </div>
+
+                <div id="fire-number" class="tab-content active">
+                    <div class="card">
+                        <div class="card__body">
+                            <h3>How Much Money Do You Really Need to Retire in India?</h3>
+                            <p>The global FIRE movement popularized multiplying yearly expenses by 25—relying on a 4% withdrawal rate. But Indian factors make this incomplete:</p>
+                            <ul>
+                                <li>Inflation (~6%) means costs double every 12 years</li>
+                                <li>Higher historic equity returns but more volatility</li>
+                                <li>Family support obligations</li>
+                                <li>Emotional ties to property</li>
+                            </ul>
+                            <div class="formula-box">
+                                <h4>Calculate Your Personal 'Enough Number':</h4>
+                                <p>Monthly Expense × 12 × 30-40x = Conservative Corpus</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__body">
+                            <h3>Lifestyle Bands & Corpus Requirements</h3>
+                            <div class="lifestyle-bands">
+                                <div class="band-item">
+                                    <h4>Simple Life</h4>
+                                    <p>₹40k–70k/month → ₹1.25–2.5 crore corpus</p>
+                                </div>
+                                <div class="band-item">
+                                    <h4>Modest Urban Life</h4>
+                                    <p>₹70k–1.2L/month → ₹2.5–4 crore corpus</p>
+                                </div>
+                                <div class="band-item">
+                                    <h4>Comfortable Metro Life</h4>
+                                    <p>₹1.2–2L/month → ₹4–7 crore corpus</p>
+                                </div>
+                                <div class="band-item">
+                                    <h4>Aspirational City Life</h4>
+                                    <p>₹2–3.5L/month → ₹7–10 crore corpus</p>
+                                </div>
+                                <div class="band-item">
+                                    <h4>Abundant/Rich Life</h4>
+                                    <p>₹3L+/month → ₹10+ crore corpus</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="retirement-mistakes" class="tab-content">
+                    <div class="card">
+                        <div class="card__body">
+                            <h3>9 Retirement Mistakes to Avoid</h3>
+                            <div class="mistakes-grid">
+                                <div class="mistake-item">❌ Overspending on children's education</div>
+                                <div class="mistake-item">❌ Mishandling lumpsum retirement corpus</div>
+                                <div class="mistake-item">❌ Avoiding equity as a retiree</div>
+                                <div class="mistake-item">❌ Consuming entire retirement income</div>
+                                <div class="mistake-item">❌ Oversharing financial details with children</div>
+                                <div class="mistake-item">❌ Acting as guarantor on loans</div>
+                                <div class="mistake-item">❌ Chasing returns instead of safety</div>
+                                <div class="mistake-item">❌ Trusting dubious advisors</div>
+                                <div class="mistake-item">❌ Ignoring spousal simplicity</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="bucket-strategy" class="tab-content">
+                    <div class="card">
+                        <div class="card__body">
+                            <h3>Three-Bucket Strategy for Retirement</h3>
+                            <div class="buckets-grid">
+                                <div class="bucket-item">
+                                    <h4>Short-Term Bucket</h4>
+                                    <p><strong>Purpose:</strong> Cover 2-4 years of living expenses</p>
+                                    <p><strong>Contents:</strong> Cash, savings, short-term debt funds</p>
+                                </div>
+                                <div class="bucket-item">
+                                    <h4>Medium-Term Bucket</h4>
+                                    <p><strong>Purpose:</strong> Steady inflation-beating income</p>
+                                    <p><strong>Contents:</strong> Long-term bonds, balanced funds, dividend stocks</p>
+                                </div>
+                                <div class="bucket-item">
+                                    <h4>Long-Term Bucket</h4>
+                                    <p><strong>Purpose:</strong> Growth for long-term wealth</p>
+                                    <p><strong>Contents:</strong> Stocks, equity mutual funds, real estate</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NRI Banking Section -->
+    <section id="banking" class="section">
+        <div class="container">
+            <h2 class="section-title">NRI Banking & Accounts</h2>
+            
+            <div class="card">
+                <div class="card__body">
+                    <h3>NRI Account Types</h3>
+                    <div class="account-types">
+                        <div class="account-item">
+                            <div>
+                                <h4>NRE Account</h4>
+                                <p>Rupee-denominated, allows free movement in/out of India</p>
+                            </div>
+                            <span class="status status--success">Interest tax-free</span>
+                        </div>
+                        <div class="account-item">
+                            <div>
+                                <h4>NRO Account</h4>
+                                <p>For income originating in India like rent/dividends</p>
+                            </div>
+                            <span class="status status--warning">Interest taxable with TDS</span>
+                        </div>
+                        <div class="account-item">
+                            <div>
+                                <h4>FCNR Account</h4>
+                                <p>Fixed deposits in foreign currencies</p>
+                            </div>
+                            <span class="status status--success">Interest tax-free during NRI status</span>
+                        </div>
+                        <div class="account-item">
+                            <div>
+                                <h4>RFC Account</h4>
+                                <p>For returning NRIs bringing back foreign currency</p>
+                            </div>
+                            <span class="status status--warning">Taxable after return</span>
+                        </div>
+                        <div class="account-item">
+                            <div>
+                                <h4>GIFT City Account</h4>
+                                <p>Foreign currency account in special economic zone</p>
+                            </div>
+                            <span class="status status--info">Treated as offshore</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card__body">
+                    <h3>10 Hassle-Free Banking Tips</h3>
+                    <div class="tips-grid">
+                        <div class="tip-item">✅ Limit bank accounts to 2 major banks</div>
+                        <div class="tip-item">✅ Convert resident accounts to NRO when moving abroad</div>
+                        <div class="tip-item">✅ Consider GIFT City account for dollar exposure</div>
+                        <div class="tip-item">✅ Link Indian mobile number for banking</div>
+                        <div class="tip-item">✅ Keep annual statements for compliance</div>
+                        <div class="tip-item">✅ Clear all loans and gather closure documents</div>
+                        <div class="tip-item">✅ Activate UPI for easy payments</div>
+                        <div class="tip-item">✅ Open NRE/NRO before leaving India</div>
+                        <div class="tip-item">✅ Close accounts when returning to India</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tax & Compliance Section -->
+    <section id="tax" class="section">
+        <div class="container">
+            <h2 class="section-title">Cross-Border Tax & Compliance</h2>
+            
+            <div class="content-tabs">
+                <div class="tab-buttons">
+                    <button class="tab-btn active" data-tab="exit-tax">Exit Tax</button>
+                    <button class="tab-btn" data-tab="rnor-status">RNOR Status</button>
+                    <button class="tab-btn" data-tab="tds-rates">TDS Rates</button>
+                </div>
+
+                <div id="exit-tax" class="tab-content active">
+                    <div class="card">
+                        <div class="card__body">
+                            <h3>Canada Exit Tax Obligations - Common Mistakes</h3>
+                            <div class="mistakes-grid">
+                                <div class="mistake-item">❌ Not understanding tax residency types</div>
+                                <div class="mistake-item">❌ Failing to break Canadian ties properly</div>
+                                <div class="mistake-item">❌ Filing unnecessary forms</div>
+                                <div class="mistake-item">❌ Not planning for exit tax</div>
+                                <div class="mistake-item">❌ Missing tax treaty advantages</div>
+                                <div class="mistake-item">❌ Assuming Canadian accounts stay tax-free</div>
+                                <div class="mistake-item">❌ Not securing Indian tax residency</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="rnor-status" class="tab-content">
+                    <div class="card">
+                        <div class="card__body">
+                            <h3>RNOR Status Benefits</h3>
+                            <div class="rnor-info">
+                                <div class="info-section">
+                                    <h4>Qualification</h4>
+                                    <p>NRI for 9 of last 10 years OR less than 729 days in India in last 7 years</p>
+                                </div>
+                                <div class="info-section">
+                                    <h4>Duration</h4>
+                                    <p>Up to 3 years after return to India</p>
+                                </div>
+                                <div class="info-section">
+                                    <h4>Key Benefits</h4>
+                                    <ul>
+                                        <li>Foreign income exempt (except India-controlled business)</li>
+                                        <li>NRE/NRO interest tax-free for 2 years</li>
+                                        <li>Capital gains concessions</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="tds-rates" class="tab-content">
+                    <div class="card">
+                        <div class="card__body">
+                            <h3>TDS Rates for NRIs (2025)</h3>
+                            <div class="tds-table">
+                                <div class="tds-row tds-header">
+                                    <div>Income Type</div>
+                                    <div>TDS Rate</div>
+                                </div>
+                                <div class="tds-row">
+                                    <div>Shares & Bonds (LTCG)</div>
+                                    <div>12.5%</div>
+                                </div>
+                                <div class="tds-row">
+                                    <div>Company Fixed Deposits</div>
+                                    <div>10%</div>
+                                </div>
+                                <div class="tds-row">
+                                    <div>NRO interest, dividends</div>
+                                    <div>30%</div>
+                                </div>
+                                <div class="tds-row">
+                                    <div>Property LTCG</div>
+                                    <div>12.5%</div>
+                                </div>
+                                <div class="tds-row">
+                                    <div>Property STCG</div>
+                                    <div>30%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Investments Section -->
+    <section id="investments" class="section">
+        <div class="container">
+            <h2 class="section-title">Investment Guidance</h2>
+            
+            <div class="card">
+                <div class="card__body">
+                    <h3>GIFT City Benefits</h3>
+                    <div class="benefits-grid">
+                        <div class="benefit-item">🌐 International zone with Indian comfort</div>
+                        <div class="benefit-item">🆔 No PAN/Aadhaar required for NRIs</div>
+                        <div class="benefit-item">💵 Dollar-denominated products</div>
+                        <div class="benefit-item">🚫 No FEMA restrictions</div>
+                        <div class="benefit-item">🏦 Global-style banking</div>
+                        <div class="benefit-item">🛡️ Dollar insurance options</div>
+                        <div class="benefit-item">💰 Low minimum investments ($200/month)</div>
+                        <div class="benefit-item">🎯 Innovative NRI-specific products</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card__body">
+                    <h3>Wealth Building Framework</h3>
+                    <div class="framework-phases">
+                        <div class="phase-item">
+                            <h4>Accumulation Phase</h4>
+                            <p>Save 50-75% of earnings, build 5x annual expenses</p>
+                        </div>
+                        <div class="phase-item">
+                            <h4>Growth Phase</h4>
+                            <p>Let investments grow, begin diversifying</p>
+                        </div>
+                        <div class="phase-item">
+                            <h4>Independence Phase</h4>
+                            <p>25x annual expenses, achieve financial freedom</p>
+                        </div>
+                        <div class="phase-item">
+                            <h4>Abundance Phase</h4>
+                            <p>50x annual expenses, money works for you</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Case Studies Section -->
+    <section id="case-studies" class="section">
+        <div class="container">
+            <h2 class="section-title">Case Studies & Examples</h2>
+            
+            <div class="case-studies-grid">
+                <div class="card">
+                    <div class="card__body">
+                        <h3>₹5 Crore Retirement Corpus</h3>
+                        <div class="case-details">
+                            <p><strong>Profile:</strong> Age 45, retiring at 58, ₹22L in EPF</p>
+                            <p><strong>Strategy:</strong> Step-up SIP ₹60k/month + EPF contributions</p>
+                            <p><strong>Timeline:</strong> 13 years to achieve goal</p>
+                            <p><strong>Assumptions:</strong> 12% pre-retirement, 10% post-retirement returns</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__body">
+                        <h3>Why Wealth Explodes After ₹1 Crore</h3>
+                        <div class="case-details">
+                            <p><strong>Concept:</strong> First crore hardest, subsequent crores come faster</p>
+                            <p><strong>Reasons:</strong> Higher income, better investments, compounding scale effect</p>
+                            <p><strong>Timeline:</strong> ₹30k SIP: 1st crore in 12 years, 2nd in under 5 years</p>
+                            <div class="highlight-box">
+                                <p>The compounding effect accelerates dramatically once you cross the ₹1 crore milestone</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>NRI Financial Hub</h4>
+                    <p>Comprehensive financial guidance for NRIs and Indian residents</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <a href="#fire">FIRE Planning</a>
+                    <a href="#banking">NRI Banking</a>
+                    <a href="#tax">Tax Compliance</a>
+                    <a href="#investments">Investments</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <a href="#case-studies">Case Studies</a>
+                    <p class="disclaimer">Disclaimer: This content is for educational purposes only. Please consult qualified financial advisors for personalized advice.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
