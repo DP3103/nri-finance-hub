@@ -421,13 +421,12 @@
 <section id="blogs" class="section">
     <div class="container">
         <h2 class="section-title">Blogs</h2>
-        <p>Create, share, and explore in-depth articles on NRI finance topics. Click on a blog below or <button id="open-blog-modal" class="btn btn--primary" style="display:inline-block;">Create New Blog</button>.</p>
         <div class="blogs-grid">
             <!-- Example Blog Entry -->
             <div class="card blog-card">
                 <div class="card__body">
-                    <h3><a href="blog-example.html">How NRIs Can Maximize Investment Returns in India</a></h3>
-                    <p>A step-by-step guide for overseas Indians to tap into high-yield opportunities and avoid common pitfalls.</p>
+                    <h3><a href="TDSGuideforNRI.html">TDS Guide for NRI's</a></h3>
+                    <p>A step-by-step guide for overseas Indians on how to optimize yur taxes.</p>
                     <small>By Admin | July 2025</small>
                 </div>
             </div>
@@ -436,36 +435,7 @@
     </div>
 </section>
 
-<!-- Blog Creation Modal (Hidden by default) -->
-<div id="blog-modal" style="display:none; position:fixed; z-index:10000; left:0; top:0; width:100vw; height:100vh; background:rgba(0,0,0,0.5);">
-    <div style="background:#fff; width:90%; max-width:600px; margin:5vh auto; padding:2em; border-radius:8px; position:relative;">
-        <button id="close-blog-modal" style="position:absolute; right:1em; top:1em; font-size:1.5em; background:none; border:none;">×</button>
-        <h2>Create New Blog Post</h2>
-        <form id="blog-form">
-            <label for="blog-title">Title</label>
-            <input type="text" id="blog-title" name="blog-title" required>
-            
-            <label for="blog-author">Author</label>
-            <input type="text" id="blog-author" name="blog-author" value="Admin">
-            
-            <label for="blog-content">Content (Paste your HTML or Markdown)</label>
-            <textarea id="blog-content" name="blog-content" rows="10" required placeholder="Paste your blog content here..."></textarea>
-            
-            <button type="button" id="preview-btn" class="btn btn--outline">Preview</button>
-            <button type="button" id="copy-btn" class="btn btn--primary">Copy Blog HTML</button>
-        </form>
-        <div id="blog-preview" class="preview" style="display:none; border:1px solid #eee; padding:1em; margin-top:1em; background:#f9f9f9;"></div>
-        <p style="margin-top:2em;">
-            <strong>Instructions:</strong>
-            <ol>
-                <li>Paste your blog content in the box above.</li>
-                <li>Click "Preview" to see how your blog will look.</li>
-                <li>Click "Copy Blog HTML" to copy ready-to-save HTML for a new blog page (e.g. <code>blog-my-title.html</code>).</li>
-                <li>Add this new HTML file to your repository to publish your blog!</li>
-            </ol>
-        </p>
-    </div>
-</div>
+
 
 <!-- ...existing HTML below (footer, etc.)... -->
 
