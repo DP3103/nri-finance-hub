@@ -3,15 +3,15 @@ body {
   color: #E6E7EB;
   margin: 0; /* prevents unwanted white border */
 }
-
-.main-content, .container {
-  max-width: 780px; 
-  margin: 44px auto 44px auto; /* top, right/left, bottom, right/left */
+.main-content {
+  max-width: 980px;         /* Increase this value (try 900–1100px for very wide screens) */
+  margin: 36px auto;
   background: #22252B;
   border-radius: 13px;
-  padding: 36px 26px;
+  padding: 32px 18px;      /* Reduce side padding */
   box-shadow: 0 8px 32px -12px #181a228c;
 }
+
 body {
   font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
   background: #181B20;
