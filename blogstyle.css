@@ -1,4 +1,17 @@
+body {
+  background: #181B20;
+  color: #E6E7EB;
+  margin: 0; /* prevents unwanted white border */
+}
 
+.main-content, .container {
+  max-width: 780px; 
+  margin: 44px auto 44px auto; /* top, right/left, bottom, right/left */
+  background: #22252B;
+  border-radius: 13px;
+  padding: 36px 26px;
+  box-shadow: 0 8px 32px -12px #181a228c;
+}
 body {
   font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
   background: #181B20;
