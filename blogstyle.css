@@ -4,7 +4,7 @@ body {
   margin: 0; /* prevents unwanted white border */
 }
 .main-content {
-  max-width: 980px;         /* Increase this value (try 900–1100px for very wide screens) */
+  max-width: 1100px;         /* Increase this value (try 900–1100px for very wide screens) */
   margin: 36px auto;
   background: #22252B;
   border-radius: 13px;
