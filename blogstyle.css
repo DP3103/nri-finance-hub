@@ -1,1 +1,251 @@
 
+/* === Layout and Spacing Fixes for NRI Tax Filing Guidelines Page === */
+
+/* Wrap main content for good horizontal padding */
+body {
+  margin: 0 auto;
+  padding: var(--space-16) var(--space-12);
+  max-width: var(--container-xl);
+  background-color: var(--color-background);
+  color: var(--color-text);
+  line-height: var(--line-height-normal);
+  font-family: var(--font-family-base);
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+/* Header adjustments with padding and subtle border */
+header {
+  padding: var(--space-16) var(--space-16);
+  border-bottom: 1px solid var(--color-border);
+  background-color: var(--color-surface);
+  box-shadow: var(--shadow-sm);
+  margin-bottom: var(--space-24);
+}
+
+/* Navbar tweaks for consistent vertical padding */
+.navbar {
+  padding-top: var(--space-12);
+  padding-bottom: var(--space-12);
+}
+
+/* Main content spaced for clarity */
+main {
+  padding-top: var(--space-24);
+  padding-bottom: var(--space-24);
+  background-color: var(--color-background);
+  margin-bottom: var(--space-32);
+}
+
+/* Section spacing */
+.section {
+  padding-top: var(--space-32);
+  padding-bottom: var(--space-32);
+  margin-left: auto;
+  margin-right: auto;
+  max-width: var(--container-md);
+}
+
+/* Section titles with margin and border underline */
+.section-title {
+  margin-top: var(--space-32);
+  margin-bottom: var(--space-24);
+  padding-bottom: var(--space-8);
+  border-bottom: 2px solid var(--color-border);
+  text-align: center;
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text);
+}
+
+/* Paragraphs inside sections get bottom margin for spacing */
+.section p {
+  margin-bottom: var(--space-16);
+  color: var(--color-text);
+  line-height: var(--line-height-normal);
+}
+
+/* Footer with padding, margin and border top for separation */
+.footer {
+  padding: var(--space-32) var(--space-16);
+  margin-top: var(--space-48);
+  border-top: 1px solid var(--color-border);
+  background-color: var(--color-surface);
+  color: var(--color-text-secondary);
+}
+
+/* Footer links spaced nicely */
+.footer-section a {
+  display: inline-block;
+  margin-bottom: var(--space-8);
+  color: var(--color-text-secondary);
+  text-decoration: none;
+  transition: color var(--duration-fast);
+}
+
+.footer-section a:hover {
+  color: var(--color-primary);
+}
+
+/* Responsive tweaks for smaller screens */
+@media (max-width: 768px) {
+  body {
+    padding-left: var(--space-8);
+    padding-right: var(--space-8);
+  }
+
+  header,
+  main,
+  .footer {
+    padding-left: var(--space-8);
+    padding-right: var(--space-8);
+    margin-bottom: var(--space-16);
+  }
+
+  .section {
+    padding-top: var(--space-24);
+    padding-bottom: var(--space-24);
+    max-width: 100%;
+  }
+
+  .section-title {
+    margin-top: var(--space-16);
+    margin-bottom: var(--space-16);
+    font-size: var(--font-size-xl);
+  }
+}
+<style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      margin: 2em auto;
+      max-width: 800px;
+      background: #fafbfc;
+      color: #222;
+      line-height: 1.7;
+    }
+    h1, h2, h3 {
+      color: #16487a;
+    }
+    h1 {
+      font-size: 2.3em;
+      margin-bottom: .3em;
+    }
+    h2 {
+      margin-top: 1.7em;
+      font-size: 1.5em;
+      border-bottom: 2px solid #e0e6ed;
+      padding-bottom: .2em;
+    }
+    ul, ol {
+      padding-left: 1.2em;
+      margin-bottom: 1.2em;
+    }
+    li {
+      margin-bottom: .4em;
+    }
+    strong, b {
+      color: #1d3557;
+    }
+    .faq {
+      margin: 1.7em 0;
+      padding: 1.2em 1.5em;
+      background: #f0f7ff;
+      border-left: 4px solid #16487a;
+      border-radius: 4px;
+    }
+    .faq p {
+      margin-bottom: .7em;
+    }
+    .highlight {
+      background: #fff9c4;
+      padding: .2em .4em;
+      border-radius: 2px;
+    }
+    .final-tips {
+      background: #eafaf1;
+      border-left: 4px solid #2e7d32;
+      padding: 1em 1.5em;
+      margin: 2em 0 1em 0;
+      border-radius: 4px;
+    }
+    blockquote {
+      color: #333;
+      background: #f6f8fa;
+      border-left: 4px solid #a3a3a3;
+      margin: 1em 0;
+      padding: 1em 1.3em;
+      font-style: italic;
+    }
+    @media (max-width: 600px) {
+      body { margin: 0.5em; }
+    }
+  </style>
+<style>
+  body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 2em auto;
+    max-width: 800px;
+    background: #181c1f;
+    color: #e8eaed;
+    line-height: 1.7;
+  }
+  h1, h2, h3 {
+    color: #80bfff;
+  }
+  h1 {
+    font-size: 2.3em;
+    margin-bottom: .3em;
+  }
+  h2 {
+    margin-top: 1.7em;
+    font-size: 1.5em;
+    border-bottom: 2px solid #22344a;
+    padding-bottom: .2em;
+  }
+  ul, ol {
+    padding-left: 1.2em;
+    margin-bottom: 1.2em;
+  }
+  li {
+    margin-bottom: .4em;
+  }
+  strong, b {
+    color: #99cfff;
+  }
+  .faq {
+    margin: 1.7em 0;
+    padding: 1.2em 1.5em;
+    background: #23272e;
+    border-left: 4px solid #4682b4;
+    border-radius: 4px;
+  }
+  .faq p {
+    margin-bottom: .7em;
+  }
+  .highlight {
+    background: #374151;
+    color: #ffe066;
+    padding: .2em .4em;
+    border-radius: 2px;
+  }
+  .final-tips {
+    background: #1c2925;
+    border-left: 4px solid #4caf50;
+    padding: 1em 1.5em;
+    margin: 2em 0 1em 0;
+    border-radius: 4px;
+  }
+  blockquote {
+    color: #bdbdbd;
+    background: #23272e;
+    border-left: 4px solid #666;
+    margin: 1em 0;
+    padding: 1em 1.3em;
+    font-style: italic;
+  }
+  em {
+    color: #b3e5fc;
+  }
+  @media (max-width: 600px) {
+    body { margin: 0.5em; }
+  }
+</style>
