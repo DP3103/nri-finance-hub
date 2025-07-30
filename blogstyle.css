@@ -1,1 +1,148 @@
 
+body {
+  font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+  background: #181B20;
+  color: #E6E7EB;
+  margin: 0;
+  padding: 0;
+  line-height: 1.8;
+}
+
+.main-content, .container, #main, section {
+  max-width: 780px;
+  margin: 44px auto 44px auto;
+  background: #22252B;
+  border-radius: 13px;
+  padding: 36px 26px 36px 26px;
+  box-shadow: 0 8px 32px -12px #181a228c;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #FFD363;
+  margin-top: 2.2em;
+  margin-bottom: 0.7em;
+  letter-spacing: .01em;
+}
+h1 {
+  font-size: 2.33rem;
+  border-bottom: 2px solid #FFD36344;
+  padding-bottom: 0.25em;
+  margin-bottom: 1.3em;
+}
+h2 { font-size: 1.6rem; color: #FFE593; }
+h3 { font-size: 1.22rem; color: #FFDCA7; }
+h4, h5, h6 { color: #FBEEC1; font-size: 1.06rem; }
+
+/* Paragraph styles */
+p {
+  color: #EAECEE;
+  margin-top: 0;
+  margin-bottom: 1.2em;
+  font-size: 1.06rem;
+  letter-spacing: 0.01em;
+}
+
+/* Better lists for guides */
+ul, ol {
+  margin-bottom: 1.4em;
+  margin-top: 0.2em;
+  padding-left: 2em;
+}
+li {
+  margin: 0.36em 0;
+  color: #F1F3F8;
+  font-size: 1.03rem;
+}
+
+li strong {
+  color: #FFD363;
+}
+
+ul li::marker {
+  color: #FFD363;
+}
+
+/* Callouts for checklists */
+ol > li {
+  background: #23272F;
+  margin-bottom: 0.54em;
+  border-radius: 6px;
+  padding: 0.32em 0.8em;
+  border-left: 3.5px solid #FFCE61;
+}
+
+blockquote {
+  margin: 1.6em 0;
+  background: #263047;
+  border-left: 5px solid #60E6F0;
+  border-radius: 0 9px 9px 0;
+  color: #B2CAF4;
+  padding: 1.1em 1.6em;
+  font-size: 1.07rem;
+  font-style: italic;
+  box-shadow: 0 2px 18px -8px #06090e55;
+}
+
+/* Emphasize "tips" or final takeaways (use with <strong>) */
+strong {
+  color: #FFD363;
+  font-weight: 600;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #20222A;
+  margin-bottom: 1.8em;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 3px 14px -7px #181a2284;
+}
+th, td {
+  border: 1px solid #33363B;
+  padding: 11px 13px;
+  text-align: left;
+}
+th {
+  background: #303443;
+  color: #FFD363;
+  font-weight: 600;
+}
+td {
+  color: #F1F3F8;
+}
+
+a {
+  color: #6BDFFF;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+a:hover, a:focus {
+  color: #FFD363;
+}
+
+pre, code {
+  font-family: 'Fira Mono', 'Consolas', monospace;
+  background: #232940;
+  color: #60E6F0;
+  border-radius: 5px;
+}
+pre {
+  padding: 1em;
+  overflow-x: auto;
+  margin-bottom: 1.3em;
+  font-size: 1rem;
+}
+code {
+  padding: .13em .36em;
+}
+
+hr {
+  border: none;
+  border-top: 1.6px solid #374053;
+  margin
