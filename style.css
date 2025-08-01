@@ -1575,28 +1575,30 @@ html {
     body { margin: 0.5em; }
   }
 </style>
-#mobile-menu-toggle {
-  display: none;
-  position: absolute; right: 1rem; top: 1.3rem;
-  font-size: 2rem; background: none; border: none; cursor: pointer; z-index: 1001;
-}
 #mobile-menu-nav {
   display: none;
   position: absolute; top: 55px; right: 1rem;
-  background: #fff; border: 1px solid #ccc; border-radius: 8px;
-  box-shadow: 0 8px 32px rgba(0,0,0,0.10);
-  padding: 1rem 0.5rem; z-index: 1000; min-width: 160px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.08);
+  padding: 1rem 0.5rem;
+  z-index: 1000;
+  min-width: 160px;
 }
 #mobile-menu-nav.open { display: block !important; }
 #mobile-menu-nav a {
-  display: block; color: #222; text-decoration: none;
-  padding: 0.75rem 1.2rem; border-bottom: 1px solid #eee;
-  font-size: 1.1rem;
+  display: block;
+  color: #222;
+  text-decoration: none;
+  padding: 0.75rem 1.2rem;
+  border-bottom: 1px solid #eee;
+  font-size: 1.12rem;
 }
 #mobile-menu-nav a:last-child { border-bottom: none; }
 
-/* Only show hamburger/mobile nav for screens narrower than 900px */
+/* Show hamburger on small screens only, hide .nav-menu there */
 @media (max-width: 900px) {
   .nav-menu { display: none !important; }
-  #mobile-menu-toggle { display: block !important; }
+  .nav-toggle { display: block !important; }
 }
